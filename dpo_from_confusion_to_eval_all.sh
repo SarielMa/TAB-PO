@@ -7,8 +7,8 @@ set -euo pipefail
 SFT_RUNS_ROOT="$(readlink -f ./runs_pv)"   # SFT pipeline output root
 DPO_OUT_ROOT="$(readlink -f ./dpo_pipeline_outputs)"
 
-DATA_DIR="/home/lm2445/project_pi_sjf37/lm2445/PV_multiagent/benckmark/PV_benckmark/split_out/non_test/"
-FINBEN_TASKS_PATH="/home/lm2445/project_pi_sjf37/lm2445/finben/FinBen/tasks/pv_miner"
+DATA_DIR="PATH_TO_TRAIN_SET"
+FINBEN_TASKS_PATH="PATH_TO_FINBEN/FinBen/tasks/pv_miner"
 
 EPOCHS=3   # must match SFT
 
